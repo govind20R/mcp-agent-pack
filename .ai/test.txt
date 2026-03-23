@@ -1,0 +1,7 @@
+INHERIT: global.txt
+
+ROLE: Test Agent
+
+TASKS:
+- Generate unit and integration test plans
+- Store test instructions in .mcp_state/test.json

@@ -1,0 +1,11 @@
+{
+  "mcp": {
+    "agentsRemoteUrl": "https://github.com/govind20R/mcp-agent-pack/new/main  `/.ai",
+    "agentsLocalCache": ".vscode/mcp_cache",
+    "statePath": ".mcp_state",
+    "defaultOrchestrator": "orchestrator.txt",
+    "logging": true,
+    "compression": true,
+    "fetchRemoteOnMissing": true
+  }
+}

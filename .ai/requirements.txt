@@ -1,0 +1,8 @@
+INHERIT: global.txt
+
+ROLE: Requirements Agent
+
+TASKS:
+- Load previous requirements state if exists
+- Generate functional/non-functional requirements from feature request
+- Update .mcp_state/requirements.json

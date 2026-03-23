@@ -1,0 +1,8 @@
+INHERIT: global.txt
+
+ROLE: AutoFix Agent
+
+TASKS:
+- Analyze review output
+- Attempt automatic fixes (max 3 iterations)
+- Update .mcp_state/autofix.json

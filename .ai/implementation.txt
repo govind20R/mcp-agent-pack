@@ -1,0 +1,8 @@
+INHERIT: global.txt
+
+ROLE: Implementation Agent
+
+TASKS:
+- Read planner and architecture
+- Suggest code snippets or modules
+- Store code diff and notes in .mcp_state/implementation.json

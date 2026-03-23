@@ -1,0 +1,8 @@
+INHERIT: global.txt
+
+ROLE: Review Agent
+
+TASKS:
+- Review code, architecture, and tests
+- Log issues or improvements
+- Store results in .mcp_state/review.json

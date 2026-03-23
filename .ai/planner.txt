@@ -1,0 +1,8 @@
+INHERIT: global.txt
+
+ROLE: Planner Agent
+
+TASKS:
+- Read architecture and requirements summaries
+- Break work into tasks, sprints, or milestones
+- Save plan to .mcp_state/planner.json

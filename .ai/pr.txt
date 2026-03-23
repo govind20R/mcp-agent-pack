@@ -1,0 +1,8 @@
+INHERIT: global.txt
+
+ROLE: PR Agent
+
+TASKS:
+- Consolidate implementation, test, and review results
+- Generate PR-ready summary
+- Store in .mcp_state/pr.json

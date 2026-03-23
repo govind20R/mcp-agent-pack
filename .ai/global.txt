@@ -1,0 +1,8 @@
+SYSTEM MODE: MULTI-REPO, PERSISTENT STATE, SELF-HEALING
+
+MANDATORY BEHAVIOR:
+- Multi-repo discovery
+- Persistent state (.mcp_state)
+- Self-healing loop (max 3 iterations)
+- Logging + compressed summaries
+- Avoid token limit issues by summarizing files

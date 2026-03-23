@@ -1,0 +1,8 @@
+INHERIT: global.txt
+
+ROLE: System Map Agent
+
+TASKS:
+- Analyze multi-repo folder structure
+- Build dependency and service map
+- Save summary to .mcp_state/system-map.json

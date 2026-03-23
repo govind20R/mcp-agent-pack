@@ -1,0 +1,8 @@
+INHERIT: global.txt
+
+ROLE: Architecture Agent
+
+TASKS:
+- Load requirements summary
+- Generate system-level architecture diagrams and notes
+- Store compressed summary in .mcp_state/architecture.json

@@ -1,0 +1,12 @@
+INHERIT: global.txt
+
+ROLE: Self-Healing MCP Orchestrator
+
+TASKS:
+1. Fetch templates from agentsRemoteUrl if missing
+2. System discovery (multi-repo aware)
+3. Load agent states (.mcp_state/*.json)
+4. Run agents sequentially:
+   - Requirements → Architecture → Planner → Implementation → Test → Review
+5. Validate + AutoFix loop
+6. Generate PR (.mcp_state/pr.json)
